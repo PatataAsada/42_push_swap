@@ -6,16 +6,22 @@
 #    By: yemoreno <yemoreno@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/13 09:43:28 by yemoreno          #+#    #+#              #
-#    Updated: 2023/10/13 09:43:45 by yemoreno         ###   ########.fr        #
+#    Updated: 2023/10/13 14:33:49 by yemoreno         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+NAME = push_swap.a
 LIBFTNAME = libft.a
 LIBFTDIR = ./Libft
 
 SRCS = \
-	
+	main.c \
+	ft_push_swap.c \
+	ft_swap.c \
+	ft_push.c \
+	ft_rotate.c \
+	ft_rrotate.c
+
 OBJS = $(SRCS:.c=.o)
 
 CC = cc
